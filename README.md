@@ -21,8 +21,8 @@ We analyze the signals provided in `.mat` files:
 Classic Fourier Transform gives a theoretical infinite precision in frequency, but completely overpass the temporal characteristics of the signal. For instance for a sinusoidal signal the FT will be suited, but for a simple chirp $s(t) = \cos(2 \pi f(t) t)$ signal FT is unable to highlight the temporal variation of the instantaneous frequency $f(t)$ of the signal.
 
 <div style="display: flex; justify-content: center; gap: 20px;">
-    <img width="500" height="400" src="https://github.com/user-attachments/assets/3cbd44b6-fedb-4061-92ae-b5f9b1106c4e" alt="Image 1">
-    <img width="500" height="400" src="https://github.com/user-attachments/assets/d61a27ab-0f83-4146-a421-64c955dc4e37" alt="Image 2">
+    <img width="100" height="400" src="https://github.com/user-attachments/assets/3cbd44b6-fedb-4061-92ae-b5f9b1106c4e" alt="Image 1">
+    <img width="100" height="400" src="https://github.com/user-attachments/assets/d61a27ab-0f83-4146-a421-64c955dc4e37" alt="Image 2">
 </div>
 
 In the case of a non-stationary signal, the autocorrelation function depends on time. The power spectral density (PSD) no longer allows us to understand the signal's content, so we must perform a time-frequency analysis. One solution to estimate the spectral content of the signal around a time t0 is to calculate the periodogram over a small number of points.
