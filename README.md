@@ -1,4 +1,3 @@
-# time-freq-signal-analysis
 
 # Time-Frequency Analysis with Fourier and Wavelet Transforms
 
